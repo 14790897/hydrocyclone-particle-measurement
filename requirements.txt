@@ -2,16 +2,16 @@
 # Python 3.10 - 3.12 (developed and verified on 3.12).
 #
 # CUDA builds: install torch/torchvision matching your CUDA version, e.g.
-#   pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
+#   pip install torch==2.13.0 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu121
 
-torch==2.2.2
+torch==2.13.0
 torchvision==0.17.2
 ultralytics==8.3.18
 opencv-python==4.10.0.84
 numpy==1.26.4
 pandas==2.2.3
 scikit-learn==1.6.0
-Pillow==10.4.0
+Pillow==12.3.0
 scipy==1.13.1
 
 # tracking (BoxMOT) dependencies
@@ -20,12 +20,12 @@ lapx==0.5.11.post1
 loguru==0.7.3
 pyyaml==6.0.2
 yacs==0.1.8
-gdown==5.2.0
+gdown==5.2.2
 regex==2024.11.6
 
 # IO / plotting / UI
 natsort==8.4.0
 openpyxl==3.1.5
 tqdm==4.67.1
-gradio==4.44.1
+gradio==6.15.1
 matplotlib>=3.8
