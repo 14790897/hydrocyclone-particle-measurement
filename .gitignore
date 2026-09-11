@@ -21,10 +21,6 @@ plots-*/
 *.mp4
 *.mov
 
-# model weights (hosted on Kaggle -- see weights/README.md)
-weights/*.pt
-weights/*.pth
-
 # misc
 .vscode/
 .DS_Store

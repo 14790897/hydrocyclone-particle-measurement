@@ -227,8 +227,8 @@ which is what allows the X-view edge distance to be matched to the Y-view trajec
 
 ## 5. Model weights
 
-The trained weights are **not stored in this repository** (large binaries); they are hosted on
-Kaggle together with the datasets. Download them into `weights/` (see `weights/README.md`):
+The trained weights are stored in this repository via **Git LFS** (run `git lfs install` before
+cloning; if you already cloned, run `git lfs pull`):
 
 | File | Role |
 |---|---|
