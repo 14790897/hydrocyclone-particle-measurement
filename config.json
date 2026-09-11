@@ -1,0 +1,15 @@
+{
+  "yolo_save_directories": {
+    "y_track_project": "runs/track",
+    "y_track_name": "exp",
+    "x_detect_project": "runs_x_me/detect",
+    "x_detect_name": "exp",
+    "video_output": "processed_video_gradio"
+  },
+  "processing_options": {
+    "max_files_per_folder": null,
+    "y_camera_fps": 8000,
+    "x_camera_fps_ratio": 0.5
+  },
+  "batch_directories": []
+}
