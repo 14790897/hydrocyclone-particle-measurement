@@ -270,6 +270,11 @@ The extracted repository was run locally end-to-end on the bundled sample data:
 | Classification + JSON | `new.convert.main_convert(...)` | per-ID `initial_data.json` with motion-state `Category` |
 | Kinematic extraction | `new/1_extract.py ../runs` | `all_stats.json` produced |
 
+Example output of the detection + tracking stage on four sample frames (bounding boxes are the
+YOLOv8 detections retained by ByteTrack):
+
+![Detection + tracking output](docs/tracking_output.png)
+
 > Note: with the tiny 20-frame sample (and/or too few valid trajectories) the plot stage
 > has nothing to draw and is skipped with a warning; on a full dataset it produces the
 > motion figures in `plots/`.
