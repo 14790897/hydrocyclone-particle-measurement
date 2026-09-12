@@ -243,12 +243,18 @@ cloning; if you already cloned, run `git lfs pull`):
 
 * **Sample data**: `sample_data/275_particle/img1/` contains 20 consecutive frames from the
   Y-view tracking-evaluation sequence (full-resolution 768 × 1024).
-* **Full dataset and training kernels**: hosted on Kaggle (links in the manuscript's
-  Data Availability statement / the accompanying Kaggle repositories):
-  * YOLOv8 training: `yolov8-v9-v10`
-  * EfficientNet-B1 classification: `efficient-net-nice`
-  * SAGAN augmentation: `sagan-particle`
-  * Particle detection datasets: `yolo-great-particle-data`, `yolo-x-camera-data`
+* **Full datasets** (Kaggle):
+  * Y-view particle detection dataset — https://www.kaggle.com/datasets/liuweiq/yolo-great-particle-data
+  * X-view particle detection dataset — https://www.kaggle.com/datasets/liuweiq/yolo-x-camera-data
+  * Motion-state classification dataset — https://www.kaggle.com/datasets/liuweiq/efficientnet-data
+* **Training code** (Kaggle kernels):
+  * YOLOv8 detector (Y/X) — https://www.kaggle.com/code/liuweiq/yolov8-v9-v10
+  * EfficientNet-B1 classifier — https://www.kaggle.com/code/liuweiqing2/efficient-net-nice
+  * SAGAN data augmentation — https://www.kaggle.com/code/liuweiqing2/sagan-particle
+* **Revised (temporal-split) detector trainings**:
+  * https://www.kaggle.com/code/liuweiqing2/yolov8s-faithful
+  * https://www.kaggle.com/code/liuweiqing2/yolov8s-faithful-temporal
+  * https://www.kaggle.com/code/liuweiqing2/yolov8s-faithful-yx-temporal
 
 ---
 
