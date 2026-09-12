@@ -251,10 +251,19 @@ cloning; if you already cloned, run `git lfs pull`):
   * YOLOv8 detector (Y/X) — https://www.kaggle.com/code/liuweiq/yolov8-v9-v10
   * EfficientNet-B1 classifier — https://www.kaggle.com/code/liuweiqing2/efficient-net-nice
   * SAGAN data augmentation — https://www.kaggle.com/code/liuweiqing2/sagan-particle
-* **Revised (temporal-split) detector trainings**:
-  * https://www.kaggle.com/code/liuweiqing2/yolov8s-faithful
-  * https://www.kaggle.com/code/liuweiqing2/yolov8s-faithful-temporal
-  * https://www.kaggle.com/code/liuweiqing2/yolov8s-faithful-yx-temporal
+* **Revised (temporal-split) detector trainings** (chronological 8:1:1 split with a 10-frame
+  boundary buffer; `ultralytics` 8.4.149):
+  * YOLOv8s — Y-view detector — https://www.kaggle.com/code/liuweiqing2/yolov8s-faithful-temporal
+  * YOLOv8s — X-view detector (mixed-view training) — https://www.kaggle.com/code/liuweiqing2/yolov8s-faithful-yx-temporal
+  * Original random-split reproduction (for comparison with the original submission) —
+    https://www.kaggle.com/code/liuweiqing2/yolov8s-faithful
+* **Revised (temporal-split) detector-framework comparison** (identical protocol for all
+  frameworks, same test set):
+  * YOLOv5s — https://www.kaggle.com/code/liuweiqing2/yolov5su-faithful-temporal
+  * YOLOv9s — https://www.kaggle.com/code/liuweiqing2/yolov9s-faithful-temporal
+  * RT-DETR-L — https://www.kaggle.com/code/liuweiqing2/rtdetr-l-faithful-temporal
+  * YOLOv5s (original `ultralytics/yolov5` repository version, legacy record) —
+    https://www.kaggle.com/code/liuweiqing2/yolov5s-faithful-temporal
 
 ---
 
