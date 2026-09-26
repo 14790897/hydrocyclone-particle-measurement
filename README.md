@@ -3,6 +3,8 @@
 Reference implementation accompanying the manuscript on **machine-learning-assisted automated
 measurement of three-dimensional particle rotation and revolution in hydrocyclone swirling flows**.
 
+**Published paper**: [Machine Learning-Assisted Measurement of Three-Dimensional Particle Self-Rotation and Revolution in Swirling Flow Fields](https://www.mdpi.com/1424-8220/26/19/6063) — *Sensors* **2026**, *26*(19), 6063. DOI: [10.3390/s26196063](https://doi.org/10.3390/s26196063)
+
 The pipeline implements an end-to-end sensing strategy:
 
 ```
@@ -290,7 +292,27 @@ YOLOv8 detections retained by ByteTrack):
 
 ---
 
-## 8. License
+## 8. Citation
+
+If you use this code or data, please cite the published paper:
+
+```bibtex
+@Article{He2026ParticleRotation,
+  author  = {He, Fengqin and Liu, Weiqing and Huang, Yuan and Liu, Qibin},
+  title   = {Machine Learning-Assisted Measurement of Three-Dimensional Particle Self-Rotation and Revolution in Swirling Flow Fields},
+  journal = {Sensors},
+  year    = {2026},
+  volume  = {26},
+  number  = {19},
+  pages   = {6063},
+  doi     = {10.3390/s26196063},
+  url     = {https://www.mdpi.com/1424-8220/26/19/6063}
+}
+```
+
+---
+
+## 9. License
 
 The vendored `boxmot/` library is licensed **AGPL-3.0** (© Mikel Broström). See `boxmot/` and the
 upstream BoxMOT project for the full license text.
